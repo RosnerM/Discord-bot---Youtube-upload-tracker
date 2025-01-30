@@ -5,9 +5,12 @@ This program checks if a Youtube channel has uploaded a new video, by checking e
 
 ## Requirements
 - Python installation and access to terminal
+- Google Developer account
+- Discord Developer account
 
 - You will also need to create on this directory a new file called ".env", with the following keys for the program to work:
 
+### .env
 ```
 # .env
 YOUTUBE_API_KEY= <Your_youtube_api_key_here>
