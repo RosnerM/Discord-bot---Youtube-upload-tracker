@@ -50,7 +50,7 @@ async def on_ready():
     print(f'Bot is ready. Logged in as {bot.user}')
     check_for_new_video.start()  # Start the task to check for new videos
 
-@tasks.loop(minutes=5)  # Check every 10 minutes
+@tasks.loop(minutes=5)  # Check every X minutes
 async def check_for_new_video():
     global last_video_dict
 
