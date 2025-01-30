@@ -1,4 +1,4 @@
-# Youtube upload notification discord bot tracker
+# Discord bot: Youtube upload tracker
 
 ## Description
 This program checks if a Youtube channel has uploaded a new video, by checking every 5 minutes against Google's API for new data. If a new video has been uploaded, then it automatically post a message on your Discord server. This is useful for promoting youtube channels to your audience in a discord server or following certain youtubers by receiving customizable notification alerts which can be viewed from your phone.
