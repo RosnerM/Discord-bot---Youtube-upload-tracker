@@ -12,7 +12,6 @@ This program checks if a Youtube channel has uploaded a new video, by checking e
 
 ### .env
 ```
-# .env
 YOUTUBE_API_KEY= <Your_youtube_api_key_here>
 YOUTUBE_CHANNEL_ID= <youtube_channel_you_want_to_track_here>
 DISCORD_BOT_TOKEN=<token_for_your_discord_bot_here>
